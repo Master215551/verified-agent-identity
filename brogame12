@@ -10,7 +10,7 @@ on:
       agent_description:
         description: 'brogame12'
         required: true
-        default: 'brogame AI Agent'
+        default: 'brogame12 AI Agent'
 
 jobs:
   verify:
@@ -38,4 +38,4 @@ jobs:
 
       - name: Step 3 - Link Human to Agent
         run: |
-          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "brogame12", "description": "brogame AI Agent"}'
+          node scripts/manualLinkHumanToAgent.js --challenge '{"name": "brogame12", "description": "brogame12 AI Agent"}'
